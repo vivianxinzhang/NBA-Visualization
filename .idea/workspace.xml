@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="22977aa9-cc2f-4573-96e7-9c1a26daebd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-web/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/tests/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-web/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nba-web/src/tests" />
+      <recent name="$PROJECT_DIR$/nba-web/src/styles" />
+      <recent name="$PROJECT_DIR$/nba-web/src/components" />
+      <recent name="$PROJECT_DIR$/nba-web/src/test" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
