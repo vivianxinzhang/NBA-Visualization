@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import logo from "../assets/images/nba-logoman.svg";
 
 class TopNavBar extends Component {
     render() {
         return (
-            <div>
-                This is header
-            </div>
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+            </header>
         );
     }
 }
