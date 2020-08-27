@@ -18,7 +18,12 @@ class Main extends Component {
 
     componentDidMount() {
         window.nba = nba;  // 把 nba 变为全局变量
-
+        const curry = nba.findPlayer('Stephen Curry');
+        console.log('data from Curry', curry);
+        nba.stats.playerInfo({ PlayerID: nba.findPlayer('Stephen Curry').playerId})
+            .then(info => {
+                console.log(info);
+            })
     }
 
     render() {
