@@ -25,6 +25,9 @@ class Profile extends Component {
                 <img className="profile-picture"
                      src={`${PROFILE_PIC_URL_PREFIX}/${playerId}.png`}
                      alt="Profile"/>
+                <div className="profile-entry player-name">
+                    { playerName }
+                </div>
             </div>
         );
     }
