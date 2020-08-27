@@ -22,7 +22,13 @@ class Main extends Component {
         console.log('data from Curry', curry);
         nba.stats.playerInfo({ PlayerID: nba.findPlayer('Stephen Curry').playerId})
             .then(info => {
-                console.log(info);
+                console.log('nba info from backend->', info);
+                console.log('commonPlayerInfo ->', info.commonPlayerInfo);
+                const playerInfo = Object.assign(info.commonPlayerInfo[0], info.playerHeadlineStats[0]);
+                console.log('playerInfo ->', playerInfo);
+                this.setState({
+                    playerInfo: playerInfo
+                })
             })
     }
 
@@ -30,7 +36,7 @@ class Main extends Component {
         return (
             <div className="main">
                 Main
-                <Profile />
+                <Profile playerInfo = {this.state.playerInfo}/>
             </div>
         );
     }
