@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22977aa9-cc2f-4573-96e7-9c1a26daebd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nba-web/src/styles/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba-web/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-web/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-web/src/styles/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/styles/Main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1598244468125" duration="2000" />
       <workItem from="1598327445490" duration="1457000" />
       <workItem from="1598415893156" duration="667000" />
-      <workItem from="1598495652345" duration="798000" />
+      <workItem from="1598495652345" duration="1508000" />
     </task>
     <servers />
   </component>
