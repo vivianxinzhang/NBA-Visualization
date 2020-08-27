@@ -4,7 +4,7 @@ import Profile from "./Profile";
 class Main extends Component {
     render() {
         return (
-            <div>
+            <div className="main">
                 Main
                 <Profile />
             </div>

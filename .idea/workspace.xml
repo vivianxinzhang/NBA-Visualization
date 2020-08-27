@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22977aa9-cc2f-4573-96e7-9c1a26daebd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nba-web/src/styles/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-web/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/tests/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba-web/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-web/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-web/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba-web/src/styles/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nba-web/src/styles/Main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gTcP7aofWB2u1sJjt0DgpuN3I7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,13 +35,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nba-web/src/tests" />
       <recent name="$PROJECT_DIR$/nba-web/src/styles" />
       <recent name="$PROJECT_DIR$/nba-web/src/components" />
+      <recent name="$PROJECT_DIR$/nba-web/src/tests" />
       <recent name="$PROJECT_DIR$/nba-web/src/test" />
     </key>
   </component>
@@ -44,6 +58,10 @@
       <workItem from="1598143849005" duration="32000" />
       <workItem from="1598144120391" duration="677000" />
       <workItem from="1598239364696" duration="404000" />
+      <workItem from="1598244468125" duration="2000" />
+      <workItem from="1598327445490" duration="1457000" />
+      <workItem from="1598415893156" duration="667000" />
+      <workItem from="1598495652345" duration="798000" />
     </task>
     <servers />
   </component>
