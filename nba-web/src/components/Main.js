@@ -35,7 +35,6 @@ class Main extends Component {
     render() {
         return (
             <div className="main">
-                Main
                 <Profile playerInfo = {this.state.playerInfo}/>
             </div>
         );

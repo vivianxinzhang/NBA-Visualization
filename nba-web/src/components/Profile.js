@@ -25,41 +25,36 @@ class Profile extends Component {
                 <img className="profile-picture"
                      src={`${PROFILE_PIC_URL_PREFIX}/${playerId}.png`}
                      alt="Profile"/>
-                <div >
-                    <div >Team</div>
-                    <div>{`${teamCity} ${teamName}`}</div>
-                    { playerName }
+                <div className="profile-entry">
+                    <div className="profile-entry-left">Team</div>
+                    <div className="profile-entry-right">{`${teamCity} ${teamName}`}</div>
                 </div>
                 <img className="team-logo"
                      src={`${TEAM_PIC_URL_PREFIX}/${teamAbbreviation}_logo.svg`}
                      alt="Team"/>
-                <div >
-                    <div >Height</div>
-                    <div>{``}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">Height</div>
+                    <div className="profile-entry-right">{`${height}`}</div>
                 </div>
-                <div >
-                    <div ></div>
-                    <div>{`${height}`}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">Weight</div>
+                    <div className="profile-entry-right">{`${weight}`}</div>
                 </div>
-                <div >
-                    <div >Weight</div>
-                    <div>{`${weight}`}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">PTS</div>
+                    <div className="profile-entry-right">{`${pts}`}</div>
                 </div>
-                <div >
-                    <div >PTS</div>
-                    <div>{`${pts}`}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">REB</div>
+                    <div className="profile-entry-right">{`${reb}`}</div>
                 </div>
-                <div >
-                    <div >REB</div>
-                    <div>{`${reb}`}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">AST</div>
+                    <div className="profile-entry-right">{`${ast}`}</div>
                 </div>
-                <div >
-                    <div >AST</div>
-                    <div>{`${ast}`}</div>
-                </div>
-                <div >
-                    <div >PIE</div>
-                    <div>{`${pie}`}</div>
+                <div className="profile-entry">
+                    <div className="profile-entry-left">PIE</div>
+                    <div className="profile-entry-right">{`${pie}`}</div>
                 </div>
             </div>
         );
