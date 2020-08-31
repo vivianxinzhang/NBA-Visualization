@@ -20,6 +20,12 @@ class ShotChart extends Component {
                     shot_made_flag: shots.shotMadeFlag,
                 }))
                 console.log('processed final shot data ->', final_shots);
+
+                const courtSelection = d3.select("#shot-chart");
+                const chart_court = court().width(600);
+                const chart_shots = shots().shotRenderThreshold(1).displayToolTips(true).displayType("hexbin");
+                courtSelection.call(chart_court);
+                courtSelection.datum(final_shots).call(chart_shots);
             })
     }
 
