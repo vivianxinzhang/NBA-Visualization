@@ -37,7 +37,7 @@ class Main extends Component {
         return (
             <div className="main">
                 <Profile playerInfo = {this.state.playerInfo}/>
-                <ShotChart></ShotChart>
+                <ShotChart playId = {this.state.playerId}></ShotChart>
             </div>
         );
     }
