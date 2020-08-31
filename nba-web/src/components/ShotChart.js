@@ -15,9 +15,9 @@ class ShotChart extends Component {
                 const final_shots = response.shot_Chart_Detail.map(shots => ({
                     x: (shots.locX + 250) / 10,
                     y: (shots.locY + 250) / 10,
-                    action_type: shots.action_type,
-                    shot_distance: shots.shot_distance,
-                    shot_made_flag: shots.shot_made_flag,
+                    action_type: shots.actionType,
+                    shot_distance: shots.shotDistance,
+                    shot_made_flag: shots.shotMadeFlag,
                 }))
                 console.log('processed final shot data ->', final_shots);
             })
