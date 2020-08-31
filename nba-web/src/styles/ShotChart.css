@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+#shot-chart {
+    width: 100%;
+    margin: auto;
+}
+
+/********SHOTCHART COURT STYLES****** */
+#shot-chart-container {
+    margin-top: -22%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 50em) {
+    #shot-chart-container {
+        margin-top: -15%;
+    }
+}
+
+@media (min-width: 55em) {
+    #shot-chart-container {
+        margin-top: -10%;
+    }
+}
+
+@media (min-width: 78em) {
+    #shot-chart-container {
+        padding-left: 1em;
+        margin-left: 33%;
+    }
+}
+
+#shot-chart-container .shot-chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 78em) {
+    #shot-chart-container .shot-chart {
+        margin: 0;
+    }
+}
+
+svg {
+    stroke-width: .2;
+}
+
+svg text {
+    font-size: 0.2em;
+}
+
+svg text.legend-text {
+    font-size: 0.1em;
+}
+
+svg rect {
+    stroke: black;
+    fill: none;
+}
+
+svg line {
+    stroke: black;
+    fill: none;
+}
+
+/********END SHOTCHART COURT STYLES****** */
