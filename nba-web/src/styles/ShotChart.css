@@ -63,5 +63,35 @@ svg line {
     stroke: black;
     fill: none;
 }
-
 /********END SHOTCHART COURT STYLES****** */
+
+/********SHOT STYLES****** */
+svg circle {
+    stroke: black;
+    fill: none;
+}
+
+svg circle.shot.make {
+    fill: green;
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+svg circle.shot.miss {
+    fill: red;
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+path {
+    stroke: white;
+    stroke-width: 0.05;
+}
+
+path.shot {
+    stroke: white;
+    fill: none;
+    stroke-width: 0.05;
+}
+
+/********END SHOT STYLES****** */
