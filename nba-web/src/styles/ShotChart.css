@@ -119,4 +119,37 @@ path.shot {
     pointer-events: none;
 }
 
+/* Northward tooltips */
+.d3-tip.n:after {
+    content: "▼";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+    content: "◀";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+    content: "▲";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+    content: "▶";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+}
 /********SHOT TOOLTIPS****** */
