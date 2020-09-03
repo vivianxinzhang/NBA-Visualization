@@ -8,6 +8,13 @@ import PropTypes from 'prop-types';
 window.d3_hexbin = {hexbin : hexbin};
 
 class ShotChart extends Component {
+    static propTypes = {
+        playerId: PropTypes.number,
+        minCount: PropTypes.number,
+        chartType: PropTypes.string,
+        displayTooltip: PropTypes.bool,
+    }
+
     componentDidMount() {
         nba.stats.shots({ PlayerID: this.props.playId })
             .then(response => {
