@@ -63,6 +63,7 @@ svg line {
     stroke: black;
     fill: none;
 }
+
 /********END SHOTCHART COURT STYLES****** */
 
 /********SHOT STYLES****** */
@@ -152,4 +153,3 @@ path.shot {
     top: 50%;
     left: 100%;
 }
-/********SHOT TOOLTIPS****** */

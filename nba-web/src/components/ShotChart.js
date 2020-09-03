@@ -21,7 +21,7 @@ class ShotChart extends Component {
                 console.log('shot response from backend->', response);
                 const final_shots = response.shot_Chart_Detail.map(shots => ({
                     x: (shots.locX + 250) / 10,
-                    y: (shots.locY + 250) / 10,
+                    y: (shots.locY + 50) / 10,
                     action_type: shots.actionType,
                     shot_distance: shots.shotDistance,
                     shot_made_flag: shots.shotMadeFlag,
@@ -29,7 +29,8 @@ class ShotChart extends Component {
                 console.log('processed final shot data ->', final_shots);
 
                 const courtSelection = d3.select("#shot-chart");
-                const chart_court = court().width(600);
+                courtSelection.html('');
+                const chart_court = court().width(500);
                 const chart_shots = shots().shotRenderThreshold(1).displayToolTips(true).displayType("hexbin");
                 courtSelection.call(chart_court);
                 courtSelection.datum(final_shots).call(chart_shots);
@@ -39,7 +40,6 @@ class ShotChart extends Component {
     render() {
         return (
             <div id="shot-chart">
-                Shot Chart
             </div>
         );
     }
