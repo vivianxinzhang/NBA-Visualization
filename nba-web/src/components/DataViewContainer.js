@@ -6,7 +6,8 @@ class DataViewContainer extends Component {
         return (
             <div className="data-view">
                 DataViewContainer
-                <ShotChart playerId={this.props.playerId}/>
+                <ShotChart playerId={this.props.playerId}
+                />
             </div>
         );
     }

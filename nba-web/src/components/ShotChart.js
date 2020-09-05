@@ -16,7 +16,7 @@ class ShotChart extends Component {
     }
 
     componentDidMount() {
-        nba.stats.shots({ PlayerID: this.props.playId })
+        nba.stats.shots({ PlayerID: this.props.playerId })
             .then(response => {
                 console.log('shot response from backend->', response);
                 const final_shots = response.shot_Chart_Detail.map(shots => ({

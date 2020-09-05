@@ -38,7 +38,8 @@ class Main extends Component {
         return (
             <div className="main">
                 <Profile playerInfo = {this.state.playerInfo}/>
-                <DataViewContainer playId = {this.state.playerId}/>
+                <DataViewContainer playerId = {this.state.playerId}/>
+                {/*<ShotChart playId = {this.state.playerId} />*/}
             </div>
         );
     }
