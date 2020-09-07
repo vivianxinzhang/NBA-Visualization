@@ -8,10 +8,11 @@ class CounterSlider extends Component {
 
     onChange = value => {
         const cleanValue = Number(value) ? value : this.state.inputValue;
-        console.log('cleanValue -> ', cleanValue);
+        // console.log('cleanValue -> ', cleanValue);
         this.setState({
             inputValue: cleanValue,
         });
+        console.log('count in child -> ', cleanValue);
         this.props.onCountSliderChange(cleanValue);
     };
 

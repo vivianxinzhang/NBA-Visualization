@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CounterSlider from "./CounterSlider";
 import ShotChart from "./ShotChart";
+import _ from 'lodash';
 
 class DataViewContainer extends Component {
     state = {
@@ -17,7 +18,8 @@ class DataViewContainer extends Component {
             <div className="data-view">
                 DataViewContainer
                 <ShotChart playerId={this.props.playerId} />
-                <CounterSlider onCountSliderChange={this.onCountSliderChange}/>
+                <CounterSlider
+                    onCountSliderChange={_.debounce(this.onCountSliderChange, 1000)}/>
             </div>
         );
     }
