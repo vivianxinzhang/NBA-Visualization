@@ -7,9 +7,12 @@ class CounterSlider extends Component {
     };
 
     onChange = value => {
+        const cleanValue = Number(value) ? value : this.state.inputValue;
+        console.log('cleanValue -> ', cleanValue);
         this.setState({
-            inputValue: value,
+            inputValue: cleanValue,
         });
+        this.props.onCountSliderChange(cleanValue);
     };
 
     render() {
@@ -23,7 +26,7 @@ class CounterSlider extends Component {
                             min={1}
                             max={20}
                             onChange={this.onChange}
-                            value={typeof inputValue === 'number' ? inputValue : 0}
+                            value={inputValue}
                         />
                     </Col>
                     <Col span={4}>
