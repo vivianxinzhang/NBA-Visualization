@@ -12,7 +12,7 @@ class CounterSlider extends Component {
         this.setState({
             inputValue: cleanValue,
         });
-        console.log('count in child -> ', cleanValue);
+        console.log('child -> ', cleanValue);
         this.props.onCountSliderChange(cleanValue);
     };
 

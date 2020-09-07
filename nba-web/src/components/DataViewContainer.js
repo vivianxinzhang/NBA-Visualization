@@ -17,9 +17,15 @@ class DataViewContainer extends Component {
         return (
             <div className="data-view">
                 DataViewContainer
-                <ShotChart playerId={this.props.playerId} />
+                <ShotChart
+                    playerId={this.props.playerId}
+                    minCount={this.state.minCount}
+                />
                 <CounterSlider
-                    onCountSliderChange={_.debounce(this.onCountSliderChange, 1000)}/>
+                    onCountSliderChange={
+                        _.debounce(this.onCountSliderChange, 500)
+                    }
+                />
             </div>
         );
     }
