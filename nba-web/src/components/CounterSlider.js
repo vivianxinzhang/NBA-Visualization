@@ -20,7 +20,6 @@ class CounterSlider extends Component {
         const { inputValue } = this.state;
         return (
             <div>
-                CounterSlider
                 <Row>
                     <Col span={12}>
                         <Slider
