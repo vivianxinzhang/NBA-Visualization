@@ -30,11 +30,14 @@ class DataViewContainer extends Component {
                     chartType={this.state.chartType}
                 />
                 <div className="filter">
-                    <CounterSlider
-                        onCountSliderChange={
-                            _.debounce(this.onCountSliderChange, 500)
-                        }
-                    />
+                    {
+                        this.state.chartType === 'hexbin' ?
+                            <CounterSlider
+                                onCountSliderChange={
+                                    _.debounce(this.onCountSliderChange, 500)
+                                }
+                            /> : null
+                    }
                     <br/>
                     <Row>
                         <Col span={9}>
